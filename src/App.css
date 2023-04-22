@@ -1,38 +1,103 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Rubik+Pixels&display=swap");
+
+.home {
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navbar {
+  background-color: rgb(149, 149, 237);
+  padding: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:  cursive;
+  
+}
+#navbar a {
+  text-decoration: none;
+  color: black;
+}
+#portfolio {
+  font-size: 5em;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+#navbar a:hover {
+  color: red;
+}
+
+main {
+  background-color: whitesmoke;
+}
+#intro {
+  font-size: 25px;
+  margin: 0;
+  padding: 30px;
+}
+#contact_so {
+  display: flex;
+  color:  rgb(149, 149, 237);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-family: "Rubik Pixels", cursive;
+}
+#contact_so a:hover {
+  color: red;
 }
 
-.App-link {
-  color: #61dafb;
+#contact_so a {
+  color: black;
+}
+#education {
+  display: flex;
+  justify-content: space-evenly;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 22px;
+}
+#education_head,
+#skills_head,
+#project_head,
+#contact_head {
+  border-radius: 100em;
+  background-color:  rgba(102, 102, 247, 0.586);
+  color: rgb(0, 0, 0);
+}
+#project_all {
+  background-color:  rgb(149, 149, 237);
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  padding: 2.5em;
+}
+#skills {
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact_field {
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#title {
+  font: 25px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#Contact {
+  background-color:  rgb(149, 149, 237)n;
+  color: black;
+  font-size: 20px;
+  padding: 25px;
+}
+.individualproject {
+  border: rgb(86, 20, 20);
+  padding: 20px;
+  margin: 20px;
 }
