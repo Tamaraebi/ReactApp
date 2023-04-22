@@ -9,7 +9,7 @@ export default function Project() {
         "http://laravel.tamaraebi.ca/api/projects"
       );
       let data = await response.json();
-      //   console.log(data);
+  
       setProjects(data);
     };
     getProject();
