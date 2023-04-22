@@ -15,7 +15,7 @@ export default function Contact() {
 
   return (
     <div>
-      <h1 id="contact_head">Contact me:</h1>
+      <h1 id="contact_head">Need to contact me? Shoot me an email or Call me!</h1>
       <div id="contact_field">
         <p>Tamara Ebiukuli</p>
         <p>Email Address: tamaraebiukuli@gmail.com</p>
