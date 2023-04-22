@@ -8,7 +8,6 @@ export default function Contact() {
         "http://laravel.tamaraebi.ca/api/contacts"
       );
       let data = await response.json();
-      //   console.log(data);
       setContacts(data);
     };
     getContact();
